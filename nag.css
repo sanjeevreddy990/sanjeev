@@ -1,0 +1,137 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#banner {
+    background-image: url(https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+
+
+}
+
+#banner h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#menu {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.menu-item {
+    margin-bottom: 30px;
+}
+
+.menu-item img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+}
+
+.menu-item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.menu-item span {
+    font-size: 18px;
+    color: #888;
+}
+
+#specials {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.special-item {
+    margin-bottom: 30px;
+}
+
+.special-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.special-item p {
+    font-size: 16px;
+}
+
+#contact {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#contact p {
+    margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
